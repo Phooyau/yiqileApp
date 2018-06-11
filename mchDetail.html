@@ -61,6 +61,19 @@
                         <span class="yql-icon yql-icon-arrow"></span>
                     </a>
                 </li>
+                <li class="yql-item">
+                    <a href="productDetail.html">
+                        <img alt="100元代金券" src="images/mchDetail/productImg_05.jpg">
+                        <div class="yql-item-info">
+                            <h4>100元代金券</h4>
+                            <p class="yql-item-usage">周一至周五免预约，可叠加使用</p>
+                            <p class="yql-item-price">
+                                <span class="discount">￥<span>79</span></span>门市价：<span class="normal">￥100</span>已售：<span>125</span>
+                            </p>
+                        </div>
+                        <span class="yql-icon yql-icon-arrow"></span>
+                    </a>
+                </li>
             </ul>
             <div>
                 <a class="more" href="javascript:;">还有<span>3</span>份套餐可供选择<i class="yql-icon-arrowB"></i></a>
@@ -78,6 +91,14 @@
         $(function () {
             $('.address').click(function () {
                 alert('进入地图页');
+            });
+
+            // 获取更多
+            $('.more').click(function () {
+                $('.yql-item').filter(function (index) {
+                    return index > 1;
+                }).show();
+                $(this).hide();
             });
         });
     </script>

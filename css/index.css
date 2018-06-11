@@ -137,8 +137,14 @@ a.yql-icon-phone {
 }
 
 .yql-item {
+    display: none;
     position: relative;
     padding-top: 0.6rem;
+}
+
+.yql-item:nth-of-type(1),
+.yql-item:nth-of-type(2) {
+    display: block;
 }
 
 .yql-item > a {
@@ -202,11 +208,11 @@ a.yql-icon-phone {
 }
 
 .yql-icon-arrow {
-    top: 34%;
+    top: 40%;
     right: 0;
     left: auto;
-    width: 0.38rem;
-    height: 0.78rem;
+    width: 1.04rem;
+    height: 1.04rem;
     background: url("../images/mchDetail/arrowR.png") no-repeat center;
     -webkit-background-size: contain;
     background-size: contain;
@@ -223,12 +229,13 @@ a.yql-icon-phone {
 
 .yql-icon-arrowB {
     display: inline-block;
-    margin: 0 0 0.14rem 0.26rem;
-    width: 0.42rem;
-    height: 0.18rem;
+    margin: 0 0 0 0.26rem;
+    width: 0.56rem;
+    height: 0.56rem;
     background: url("../images/mchDetail/arrowB.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
+    vertical-align: text-bottom;
 }
 
 .yql-icon-detIntro {
