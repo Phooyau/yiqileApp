@@ -1,0 +1,24 @@
+html, body, h3, h4, h5, p, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-family: "PingFang-SC-Bold","Microsoft Yahei","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+/*input:focus, button:focus {*/
+    /*outline: none;*/
+/*}*/
+
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}

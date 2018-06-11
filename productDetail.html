@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>商品详情</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/adaption.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="section detInfo">
+            <img class="detImg" alt="商品名" src="images/mchDetail/mchImg_02.jpg">
+            <div class="textInfo">
+                <h3 class="detName">3人麻辣香锅套餐</h3>
+                <div class="tag">
+                    <label>美食</label><!--
+                        --><label>到店自取</label><!--
+                        --><label>邮寄</label>
+                </div>
+                <div class="refMchInfo">
+                    <p><i class="yql-icon-mch"></i><span class="refMchName">老城一锅北广场店</span><i class="yql-icon yql-icon-arrow"></i></p>
+                </div>
+                <div class="contactInfo">
+                    <div class="address">
+                        <i class="yql-icon yql-icon-address"></i>
+                        <span>钟鼓楼广场西大街3号德发长饺子馆</span>
+                        <span class="distance">&nbsp;&nbsp;|&nbsp;&nbsp;距您<span>4.3</span>km</span>
+                    </div>
+                    <div class="tel">
+                        <a class="yql-icon-phone" href="tel:18674035737"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section product">
+            <h4><i class="yql-icon yql-icon-product"></i>商品详情</h4>
+            <div class="productCont">
+                <h5>3人麻辣香锅套餐</h5>
+                <ul class="productItem">
+                    <li><span class="itemName">香锅底料</span><span>（x1）</span><span class="itemPrice">￥10</span></li>
+                    <li><span class="itemName">羊肉卷</span><span>（x6）</span><span class="itemPrice">￥100</span></li>
+                    <li><span class="itemName">牛肉丸子</span><span>（x3）</span><span class="itemPrice">￥30</span></li>
+                </ul>
+                <div class="total"><span>总价值</span><span class="totalPrice">￥130</span></div>
+            </div>
+        </div>
+        <div class="section detIntro">
+            <h4><i class="yql-icon yql-icon-imgText"></i>图文介绍</h4>
+            <div class="detIntroCont">
+                <p>钟鼓楼广场边的老字号知名餐馆，以品种繁多的饺子宴闻名，这里的饺子制作技艺被列入陕西非物质文化遗产名录。店内饺子的种类让每个前来的食客大为惊叹。十几种饺子品种的宴席，每种的味道各不相同，上菜的时候，服务员还会讲解其中故事和制作方法。对于饺子来说，这里的价格不算便宜，但对于这样一个老店来说，价格还是能接受的。</p>
+                <img alt="图片1" src="images/mchDetail/mchIntro_08.jpg">
+            </div>
+        </div>
+        <div class="order">
+            <div class="orderPrice">
+                <p><span>合计</span><span class="discount">￥85</span></p>
+                <p><span>门市价</span><span class="normal">￥130</span></p>
+            </div>
+            <div class="orderBtnWrap">
+                <a class="orderBtn" href="javascript:;">下单抢购</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('.address').click(function () {
+                alert('进入地图页');
+            });
+
+            $('.orderBtn').click(function () {
+                alert('进入下单页');
+            });
+        });
+    </script>
+</body>
+</html>

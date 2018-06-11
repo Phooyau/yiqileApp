@@ -1,0 +1,390 @@
+.mainContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: #f4f6f8;
+    color: #666;
+    font-size: 0.48rem;
+    line-height: 0.72rem;
+}
+
+.section {
+    background: #fff;
+    margin-top: 0.6rem;
+}
+
+.section:first-child {
+    margin-top: 0;
+}
+
+/**商户详情**/
+.detImg {
+    display: block;
+    width: 100%;
+    height: 8.4rem;
+}
+
+.textInfo {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.56rem;
+}
+
+.detName {
+    color: #333B46;
+    font-size:0.72rem;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 0.28rem;
+}
+
+.tag {
+    font-size: 0.44rem;
+}
+
+.tag label {
+    display: inline-block;
+    border: 0.02rem solid #DAB87D;
+    padding: 0 0.16rem;
+    margin-right: 0.4rem;
+    color: #DAB87D;
+    font-size: 0.44rem;
+    line-height: 0.56rem;
+}
+
+.contactInfo {
+    position: relative;
+    margin-top: 0.6rem;
+    line-height: 0.76rem;
+}
+
+.address {
+    color: #333;
+    margin: 0 2.1rem 0 0.8rem;
+}
+
+.distance {
+    color: #999;
+}
+
+.tel {
+    position: absolute;
+    top: 0;
+    right: 0.2rem;
+}
+
+.tel a {
+    display: block;
+}
+
+.yql-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.yql-icon-address {
+    margin-top: 0.06rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../images/mchDetail/address.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+a.yql-icon-phone {
+    width: 0.76rem;
+    height: 0.76rem;
+    background: url("../images/mchDetail/phone.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.recommend, .detIntro, .product {
+    padding-top: 0.5rem;
+}
+
+.section > h4 {
+    color: #333;
+    font-size: 0.6rem;
+    font-weight: bold;
+    line-height: 0.8rem;
+    height: 0.8rem;
+    padding-left: 1.4rem;
+    position: relative;
+}
+
+.yql-icon-hotSell,
+.yql-icon-detIntro,
+.yql-icon-product,
+.yql-icon-imgText {
+    margin: 0.06rem 0 0 0.48rem;
+    width: 0.68rem;
+    height: 0.68rem;
+}
+
+.yql-icon-hotSell {
+    background: url("../images/mchDetail/hotSell.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.yql-list {
+    padding: 0 0.6rem 0;
+    border-bottom: 0.02rem solid #E5E5E5;
+}
+
+.yql-item {
+    position: relative;
+    padding-top: 0.6rem;
+}
+
+.yql-item > a {
+    display: block;
+}
+
+.yql-item > a > img {
+    float: left;
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.yql-item .yql-item-info {
+    margin-left: 3.2rem;
+    padding: 0.16rem 0 0 0.4rem;
+    border-bottom: 0.02rem solid #E5E5E5;
+}
+
+.yql-item:last-child .yql-item-info {
+    border-bottom: none;
+}
+
+.yql-item-info h4 {
+    color: #333B46;
+    font-size: 0.64rem;
+    line-height: 0.8rem;
+    font-weight: bold;
+    height: 0.8rem;
+    margin-bottom: 0.18rem;
+}
+
+.yql-item-usage,
+.yql-item-price {
+    color: #666;
+    line-height: 0.8rem;
+    height: 0.8rem;
+}
+
+.yql-item-usage {
+    font-size: 0.56rem;
+    margin-bottom: 0.4rem;
+}
+
+.yql-item-price {
+    margin-bottom: 0.64rem;
+}
+
+.yql-item-price .discount {
+    font-size: 0.56rem;
+    color: #F22D2D;
+}
+
+.yql-item-price .discount > span {
+    margin: 0 0.36rem 0 0.10rem;
+    font-size: 0.72rem;
+    vertical-align: -2.5%;
+}
+
+.yql-item-price .normal {
+    margin-right: 0.42rem;
+}
+
+.yql-icon-arrow {
+    top: 34%;
+    right: 0;
+    left: auto;
+    width: 0.38rem;
+    height: 0.78rem;
+    background: url("../images/mchDetail/arrowR.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.more {
+    display: block;
+    text-align: center;
+    line-height: 0.64rem;
+    height: 0.64rem;
+    color: #999;
+    padding: 0.26rem 0 0.32rem;
+}
+
+.yql-icon-arrowB {
+    display: inline-block;
+    margin: 0 0 0.14rem 0.26rem;
+    width: 0.42rem;
+    height: 0.18rem;
+    background: url("../images/mchDetail/arrowB.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.yql-icon-detIntro {
+    background: url("../images/mchDetail/mchIntro.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.detIntroCont {
+    margin: 0 0.6rem;
+    padding: 0.6rem 0;
+}
+
+.detIntroCont img {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+/**商品详情**/
+.refMchInfo {
+    position: relative;
+    height: 1.8rem;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    margin: 0.6rem -0.6rem 0;
+    padding: 0 0.6rem;
+}
+
+.yql-icon-mch {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.6rem;
+    height: 0.46rem;
+    background: url("../images/productDetail/mch.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.refMchName {
+    color: #333;
+    font-size: 0.56rem;
+    line-height: 1.8rem;
+}
+
+.refMchInfo .yql-icon-arrow {
+    top: 50%;
+    right: 0.6rem;
+    margin-top: -0.39rem;
+}
+
+.yql-icon-product {
+    background: url("../images/productDetail/product.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.productCont {
+    padding: 0.6rem;
+}
+
+.productCont > h5 {
+    text-align: center;
+    color: #333;
+    font-size: 0.6rem;
+    line-height: 1;
+    margin-bottom: 0.16rem;
+}
+
+.productItem {
+    color: #999;
+    font-size: 0.56rem;
+}
+
+.productItem > li {
+    height: 0.96rem;
+    line-height: 0.96rem;
+}
+
+.itemName {
+    color: #333;
+}
+
+.itemName:before {
+    display: inline-block;
+    content: '·';
+    font-size: 1.2rem;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+
+.itemPrice {
+    float: right;
+}
+
+.productCont .total {
+    color: #333;
+    font-size: 0.56rem;
+    font-weight: bold;
+    height: 0.96rem;
+    line-height: 0.96rem;
+}
+
+.total .totalPrice {
+    color: #F22D2D;
+    float: right;
+}
+
+.yql-icon-imgText {
+    background: url("../images/productDetail/imgText.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.order {
+    display: flex;
+    background-color: #fff;
+}
+
+.orderPrice {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.64rem;
+    line-height: 1.5;
+    border-top: 1px solid #EEEEEE;
+}
+
+.orderPrice p:nth-of-type(1) {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.orderPrice p:nth-of-type(2) {
+    font-size: 0.48rem;
+}
+
+.orderPrice .discount {
+    color: #F22D2D;
+    margin-left: 0.3rem;
+}
+.orderPrice .normal {
+    margin-left: 0.3rem;
+}
+
+.orderBtnWrap {
+    flex: 0 0 4rem;
+}
+
+a.orderBtn {
+    display: block;
+    height: 2rem;
+    color: #fff;
+    font-size: 0.72rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: #FF2D4B;
+}
+
