@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>福利详情</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/adaption.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="section detInfo">
+            <img class="detImg" alt="商品名" src="images/mchDetail/mchImg_02.jpg">
+            <div class="textInfo">
+                <h3 class="detName">德发长（钟楼店）</h3>
+                <div class="tag">
+                    <label>美食</label><!--
+                    --><label>到店自取</label><!--
+                    --><label>邮寄</label>
+                </div>
+                <div class="contactInfo">
+                    <div class="address">
+                        <i class="yql-icon yql-icon-address"></i>
+                        <span>钟鼓楼广场西大街3号德发长饺子馆</span>
+                        <span class="distance">&nbsp;&nbsp;|&nbsp;&nbsp;距您<span>4.3</span>km</span>
+                    </div>
+                    <div class="tel">
+                        <a class="yql-icon-phone" href="tel:18674035737"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section moreShop">
+            <i class="yql-icon-mch2"></i><span class="moreText">查看更多可使用的门店</span><i class="yql-icon yql-icon-arrow"></i>
+        </div>
+        <div class="section detIntro">
+            <h4><i class="yql-icon yql-icon-imgText"></i>活动介绍</h4>
+            <div class="detIntroCont">
+                <p>钟鼓楼广场边的老字号知名餐馆，以品种繁多的饺子宴闻名，这里的饺子制作技艺被列入陕西非物质文化遗产名录。店内饺子的种类让每个前来的食客大为惊叹。十几种饺子品种的宴席，每种的味道各不相同，上菜的时候，服务员还会讲解其中故事和制作方法。对于饺子来说，这里的价格不算便宜，但对于这样一个老店来说，价格还是能接受的。</p>
+                <img alt="图片1" src="images/mchDetail/mchIntro_08.jpg">
+            </div>
+        </div>
+        <div class="order">
+            <div class="orderPrice">
+                <p><span>银联卡支付</span><span class="discount">￥85</span></p>
+                <p><span>市场价</span><span class="normal">￥130</span></p>
+            </div>
+            <div class="orderBtnWrap">
+                <a class="orderBtn" href="javascript:;">马上获取</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $('.address').click(function () {
+                alert('进入地图页');
+            });
+
+            // 更多门店
+            $('.moreShop').click(function () {
+                window.location.href = 'moreShop.html';
+            });
+        });
+    </script>
+</body>
+</html>

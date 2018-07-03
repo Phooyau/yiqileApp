@@ -4,7 +4,7 @@ html, body, h3, h4, h5, p, ul, li{
     border: 0;
     font-weight: normal;
     vertical-align: baseline;
-    font-family: "PingFang-SC-Bold","Microsoft Yahei","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif;
+    font-family: PingFang-SC-Regular,"Microsoft Yahei","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif;
 }
 
 ol, ul {
@@ -21,4 +21,34 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     outline:none;
     background: none;
     text-decoration: none;
+}
+
+@font-face
+{
+    font-family: PingFang-SC-Regular;
+    src: url('../font/PingFang Regular.ttf'),
+    url('../font/PingFang Regular.ttf'); /* IE9+ */
+}
+
+@font-face
+{
+    font-family: PingFang-SC-Bold;
+    src: url('../font/PingFang Bold.ttf'),
+    url('../font/PingFang Bold.ttf'); /* IE9+ */
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: PingFang-SC-Light;
+    src: url('../font/PingFang Light.ttf'),
+    url('../font/PingFang Light.ttf'); /* IE9+ */
+}
+
+@font-face
+{
+    font-family: PingFang-SC-Medium;
+    src: url('../font/PingFang Medium.ttf'),
+    url('../font/PingFang Medium.ttf'); /* IE9+ */
+    /*font-weight: bold;*/
 }

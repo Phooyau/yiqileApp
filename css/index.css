@@ -34,7 +34,7 @@
 
 .detName {
     color: #333B46;
-    font-size:0.72rem;
+    font-size: 0.72rem;
     font-weight: bold;
     line-height: 1.4;
     margin-bottom: 0.28rem;
@@ -103,7 +103,7 @@ a.yql-icon-phone {
 }
 
 .recommend, .detIntro, .product {
-    padding-top: 0.5rem;
+    padding: 0.5rem 0 2rem;
 }
 
 .section > h4 {
@@ -352,6 +352,10 @@ a.yql-icon-phone {
 .order {
     display: flex;
     background-color: #fff;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .orderPrice {
@@ -377,6 +381,7 @@ a.yql-icon-phone {
     color: #F22D2D;
     margin-left: 0.3rem;
 }
+
 .orderPrice .normal {
     margin-left: 0.3rem;
 }
@@ -393,5 +398,101 @@ a.orderBtn {
     line-height: 2rem;
     text-align: center;
     background-color: #FF2D4B;
+}
+
+/**福利详情**/
+.moreShop {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    position: relative;
+}
+
+.yql-icon-mch2 {
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(../images/welfDetail/mch2.png) no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+
+.moreText {
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    color: #333;
+}
+
+.moreShop .yql-icon-arrow {
+    top: 50%;
+    right: 0.5rem;
+    margin-top: -0.52rem;
+}
+
+/**更多门店**/
+.shopList {
+    padding-left: 0.6rem;
+    border-top: 1px solid #E5E5E5;
+}
+
+.shopItem {
+    padding: 0.4rem 0.2rem 0.4rem 0;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+}
+
+.shopItem:first-child {
+    border-top: none;
+}
+
+.shopInfo > h4 {
+    font-size: 0.68rem;
+    font-family: PingFang-SC-Medium;
+    color: #333;
+    line-height: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.shopInfo {
+    border-right: 1px solid #E5E5E5;
+    flex: 1 1 auto ;
+}
+
+.shopInfo > p {
+    position: relative;
+    font-size: 0.6rem;
+    color: #333;
+    line-height: 0.8rem;
+    padding-left: 0.48rem;
+}
+
+.yql-icon-address2 {
+    width: 0.32rem;
+    height: 0.42rem;
+    background: url("../images/moreShop/adress2.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-top: 0.18rem;
+}
+
+.distance2 {
+    color: #666;
+    font-size: 0.48rem;
+}
+
+.phoneWrap {
+    width: 2.4rem;
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+a.phone2 {
+    width: 1.32rem;
+    height: 1.32rem;
+    margin: 0 auto;
+    background: url("../images/moreShop/phone2.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
 }
 
