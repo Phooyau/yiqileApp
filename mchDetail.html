@@ -89,8 +89,10 @@
     </div>
     <script>
         $(function () {
+
+            // 点击地址导航
             $('.address').click(function () {
-                alert('进入地图页');
+                window.location.href = 'yql://intent/toNavi?storeName=xxx&lat=11.11&lng=123.123';
             });
 
             // 获取更多
