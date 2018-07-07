@@ -8,11 +8,28 @@
     <link type="text/css" rel="stylesheet" href="css/index.css">
     <script type="text/javascript" src="lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/adaption.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
 </head>
 <body>
     <div class="mainContainer">
         <div class="section detInfo">
-            <img class="detImg" alt="商品名" src="images/mchDetail/mchImg_02.jpg">
+            <!--<img class="detImg" alt="商品名" src="images/mchDetail/mchImg_02.jpg">-->
+            <div class="carousel detImg">
+                <ul class="carouselList">
+                    <li><img src="images/mchDetail/mchImg_02.jpg" alt=""></li>
+                    <li><img src="images/mchDetail/mchImg_02.jpg" alt=""></li>
+                    <li><img src="images/mchDetail/mchImg_02.jpg" alt=""></li>
+                    <li><img src="images/mchDetail/mchImg_02.jpg" alt=""></li>
+                </ul>
+                <!--<div class="btn" style="width: 50px; margin-top: 50px; position: absolute;">-->
+                    <!--<div class="rbtn" style="width: 20px; height: 10px; background: red;"></div>-->
+                    <!--<div class="lbtn" style="width: 20px; height: 10px; background: blue;"></div>-->
+                <!--</div>-->
+                <div class="circle">
+                    <span class="cur"></span><span></span><span></span><span></span>
+                </div>
+            </div>
+
             <div class="textInfo">
                 <h3 class="detName">德发长（钟楼店）</h3>
                 <div class="tag">
@@ -54,6 +71,8 @@
     </div>
     <script>
         $(function () {
+            // 初始化福利轮播图
+            $('.carouselList').pyCarousel();
 
             // 点击地址导航
             $('.address').click(function () {

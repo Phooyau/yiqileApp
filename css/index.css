@@ -1,3 +1,57 @@
+/**-----轮播开始-----**/
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /*box-sizing: border-box;*/
+}
+
+.carousel .carouselList {
+    position: absolute;
+    left: -15rem;
+    width: 1000%;
+    height: 100%;
+    /*margin-top: 0.3319rem;*/
+}
+
+.carousel .carouselList li {
+    float: left;
+    width: 15rem;
+    height: 100%;
+    /*margin: 0 0.0711rem;*/
+    /*border: 0.0356rem solid #d83200;*/
+    /*border-radius: 2px;*/
+}
+
+.carousel .carouselList li img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .circle {
+    width: 100%;
+    position: absolute;
+    bottom: 0.2rem;
+    text-align: center;
+    font-size: 0;
+}
+
+.carousel .circle span {
+    background: #fff;
+    border-radius: 50%;
+    width: 0.4rem;
+    height: 0.4rem;
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+
+.carousel .circle span.cur {
+    /*background: #C84526;*/
+    background: #FF2D4B;
+}
+/**-----轮播结束-----**/
+
+
 .mainContainer {
     position: absolute;
     top: 0;
@@ -22,7 +76,7 @@
 
 /**商户详情**/
 .detImg {
-    display: block;
+    /*display: block;*/
     width: 100%;
     height: 8.4rem;
 }
@@ -455,7 +509,7 @@ a.orderBtn {
 
 .shopInfo {
     border-right: 1px solid #E5E5E5;
-    flex: 1 1 auto ;
+    flex: 1 1 auto;
 }
 
 .shopInfo > p {
