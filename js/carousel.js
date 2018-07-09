@@ -62,7 +62,7 @@
             });
 
             $li.on('touchend', function (e) {
-                console.log(e);
+                // console.log(e);
                 if (self.touch.deltaX > winW / 5) {
                     self.prev();
                 } else if (self.touch.deltaX < -winW / 5) {
