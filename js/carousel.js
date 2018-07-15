@@ -133,6 +133,5 @@
         config = $.extend({}, defaults, config);
         var pyScorll = new PyScroll(box, config);
         pyScorll.init();
-        console.log(pyScorll);
     }
 })();
