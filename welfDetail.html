@@ -86,7 +86,13 @@
 
             // 点击马上获取下单
             $('.orderBtn').click(function () {
-                window.location.href = 'yql://intent/toPay';
+                var params = location.search.substr(1);
+                console.log(params);
+                if (params.indexOf('sourceType=app') !== -1) {
+                    window.location.href = 'yql://intent/toPay';
+                } else {
+                    window.location.href = '下载页';
+                }
             });
         });
     </script>
