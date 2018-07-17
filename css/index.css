@@ -538,7 +538,7 @@ a.orderBtn {
     width: 2.4rem;
     display: flex;
     align-items: center;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
 }
 
 a.phone2 {
