@@ -63,6 +63,7 @@
     color: #666;
     font-size: 0.48rem;
     line-height: 0.72rem;
+    -webkit-overflow-scrolling: touch;
 }
 
 .section {
