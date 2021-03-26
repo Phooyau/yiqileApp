@@ -51,6 +51,9 @@
 }
 /**-----轮播结束-----**/
 
+html, body {
+    height: 100%;
+}
 
 .mainContainer {
     position: absolute;
